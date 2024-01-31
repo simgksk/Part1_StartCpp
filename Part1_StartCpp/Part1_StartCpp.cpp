@@ -47,9 +47,9 @@ int main()
 
 #pragma endregion
 
-#pragma region 005. Four basic operations
+#pragma region 005. Four basic operations (1)
 
-    int one = 1;
+    /*int one = 1;
     int two = 2;
     int three = 3;
     int four = 4;
@@ -62,10 +62,34 @@ int main()
     cout << "2 + 3 * 4 = " << two + three * four << endl;
     cout << "1 + 4 / 2 = " << one + four / two << endl;
 
-    return 0;
+    return 0;*/
 
 #pragma endregion
 
+#pragma region 006. Four basic operations (2)
+
+    int two = 2;
+    int eight = 8;
+    int sum1 = 2;
+    int sum2 = 2;
+
+    sum1 = sum1 + two; //4
+    sum2 += eight; //10
+
+    cout << "sum1 = " << sum1 << endl;
+    cout << "sum2 = " << sum2 << endl;
+
+    sum1 = 2;
+    sum2 = 8;
+    sum1 += two; //4
+    sum2 /= eight; //1
+
+    cout << "sum1 = " << sum1 << endl;
+    cout << "sum2 = " << sum2 << endl;
+
+    return 0;
+
+#pragma endregion
 
 
 
