@@ -91,9 +91,9 @@ int main()
 
 #pragma endregion
 
-#pragma region DataType
+#pragma region 007. DataType
 
-    char charater = 'C';
+    /*char charater = 'C';
     int  integer = 100;
     double precision = 3.14159;
     bool is_true = true;
@@ -105,10 +105,23 @@ int main()
     cout << "bool: " << is_true << endl;
     cout << "string: " << word << endl;
 
-    return 0;
+    return 0;*/
 
 #pragma endregion
 
+#pragma region 008. if ~ else
+
+    int x = 10;
+    int y = 1;
+
+    if (x > y)
+        cout << "x는 y보다 큽니다." << endl;
+    else
+        cout << "x는 y보다 작습니다." << endl;
+
+    return 0;
+
+#pragma endregion
 
     
 }
