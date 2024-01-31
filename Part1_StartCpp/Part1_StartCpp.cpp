@@ -125,21 +125,38 @@ int main()
 
 #pragma region 009. for
 
-    int sum1 = 0;
-    int sum2 = 0;
+    //int sum1 = 0;
+    //int sum2 = 0;
 
-    int one = 1;
-    int two = 2;
+    //int one = 1;
+    //int two = 2;
 
-    for (int i = 0; i < 5; i++) 
-    {
-        sum1 += one; //5, 1+1+1+1+1
-        sum2 += two; //10 2+2+2+2+2
-    }
+    //for (int i = 0; i < 5; i++) 
+    //{
+    //    sum1 += one; //5, 1+1+1+1+1
+    //    sum2 += two; //10 2+2+2+2+2
+    //}
 
-    cout << "합산 결과: " << sum1 << "," << sum2 << endl;
+    //cout << "합산 결과: " << sum1 << "," << sum2 << endl;
 
-    return 0; 
+    //return 0; 
+
+#pragma endregion
+
+#pragma region 010. Array
+
+    const int kArraySize = 3;
+
+    int founding[kArraySize];
+    founding[0] = 918;
+    founding[1] = 1392;
+    founding[2] = 1948;
+
+    cout << "고려 건국 연도: " << founding[0] << endl;
+    cout << "조선 건국 연도: " << founding[1] << endl;
+    cout << "한국 건국 연도: " << founding[2] << endl;
+
+    return 0;
 
 #pragma endregion
 
