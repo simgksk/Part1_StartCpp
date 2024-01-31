@@ -111,7 +111,7 @@ int main()
 
 #pragma region 008. if ~ else
 
-    int x = 10;
+    /*int x = 10;
     int y = 1;
 
     if (x > y)
@@ -119,7 +119,27 @@ int main()
     else
         cout << "x는 y보다 작습니다." << endl;
 
-    return 0;
+    return 0;*/
+
+#pragma endregion
+
+#pragma region 009. for
+
+    int sum1 = 0;
+    int sum2 = 0;
+
+    int one = 1;
+    int two = 2;
+
+    for (int i = 0; i < 5; i++) 
+    {
+        sum1 += one; //5, 1+1+1+1+1
+        sum2 += two; //10 2+2+2+2+2
+    }
+
+    cout << "합산 결과: " << sum1 << "," << sum2 << endl;
+
+    return 0; 
 
 #pragma endregion
 
