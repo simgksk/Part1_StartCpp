@@ -68,29 +68,46 @@ int main()
 
 #pragma region 006. Four basic operations (2)
 
-    int two = 2;
-    int eight = 8;
-    int sum1 = 2;
-    int sum2 = 2;
+    //int two = 2;
+    //int eight = 8;
+    //int sum1 = 2;
+    //int sum2 = 2;
 
-    sum1 = sum1 + two; //4
-    sum2 += eight; //10
+    //sum1 = sum1 + two; //4
+    //sum2 += eight; //10
 
-    cout << "sum1 = " << sum1 << endl;
-    cout << "sum2 = " << sum2 << endl;
+    //cout << "sum1 = " << sum1 << endl;
+    //cout << "sum2 = " << sum2 << endl;
 
-    sum1 = 2;
-    sum2 = 8;
-    sum1 += two; //4
-    sum2 /= eight; //1
+    //sum1 = 2;
+    //sum2 = 8;
+    //sum1 += two; //4
+    //sum2 /= eight; //1
 
-    cout << "sum1 = " << sum1 << endl;
-    cout << "sum2 = " << sum2 << endl;
+    //cout << "sum1 = " << sum1 << endl;
+    //cout << "sum2 = " << sum2 << endl;
+
+    //return 0;
+
+#pragma endregion
+
+#pragma region DataType
+
+    char charater = 'C';
+    int  integer = 100;
+    double precision = 3.14159;
+    bool is_true = true;
+    string word = "Hello World";
+
+    cout << "char: " << charater << endl;
+    cout << "int: " << integer << endl;
+    cout << "double: " << precision << endl;
+    cout << "bool: " << is_true << endl;
+    cout << "string: " << word << endl;
 
     return 0;
 
 #pragma endregion
-
 
 
     
