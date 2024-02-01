@@ -4,7 +4,7 @@ using namespace std;
 
     #pragma region 011.Function
 
-    void Minus(const int x, const int y) 
+    /*void Minus(const int x, const int y) 
     {
         cout << "x - y = " << x - y << endl;
     }
@@ -12,9 +12,34 @@ using namespace std;
     int Plus(const int x, const int y) 
     {
         return x + y;
-    }
+    }*/
 
     #pragma endregion
+
+#pragma region 013. NameSpace
+
+namespace silla 
+{
+    int year = 935;
+
+    void CentralArea() 
+    {
+        cout << "경상도" << endl;
+    }
+}
+
+namespace baekjae 
+{
+    int year = 660;
+
+    void CentralArea() 
+    {
+        cout << "충청도" << endl;
+    }
+}
+
+#pragma endregion
+
 
 
     int main()
@@ -175,14 +200,30 @@ using namespace std;
 
         #pragma endregion
 
-        #pragma region 011.Function
+        #pragma region 011. Function
         
-            Minus(10, 5);
+            /*Minus(10, 5);
 
             cout << "x + y = " << Plus(2, 6) << endl;
 
-            return 0;
+            return 0;*/
     
+        #pragma endregion
+
+        #pragma region 013. NameSpace
+
+            cout << "신라 중심지: ";
+            silla::CentralArea();
+
+            cout << "신라 멸망 연도: " << silla::year << endl;
+            
+            cout << "백제 중심지: ";
+            baekjae::CentralArea();
+
+            cout << "백제 멸망 연도: " << baekjae::year << endl;
+
+            return 0;
+            
         #pragma endregion
 
 
