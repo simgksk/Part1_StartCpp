@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <vector> //014. 벡터 파일 사용
 
 using namespace std;
 
@@ -18,25 +19,25 @@ using namespace std;
 
 #pragma region 013. NameSpace
 
-namespace silla 
-{
-    int year = 935;
-
-    void CentralArea() 
-    {
-        cout << "경상도" << endl;
-    }
-}
-
-namespace baekjae 
-{
-    int year = 660;
-
-    void CentralArea() 
-    {
-        cout << "충청도" << endl;
-    }
-}
+//namespace silla 
+//{
+//    int year = 935;
+//
+//    void CentralArea() 
+//    {
+//        cout << "경상도" << endl;
+//    }
+//}
+//
+//namespace baekjae 
+//{
+//    int year = 660;
+//
+//    void CentralArea() 
+//    {
+//        cout << "충청도" << endl;
+//    }
+//}
 
 #pragma endregion
 
@@ -212,7 +213,7 @@ namespace baekjae
 
         #pragma region 013. NameSpace
 
-            cout << "신라 중심지: ";
+            /*cout << "신라 중심지: ";
             silla::CentralArea();
 
             cout << "신라 멸망 연도: " << silla::year << endl;
@@ -222,10 +223,25 @@ namespace baekjae
 
             cout << "백제 멸망 연도: " << baekjae::year << endl;
 
-            return 0;
+            return 0;*/
             
         #pragma endregion
 
+        #pragma region 014. Include
+
+            vector<int> exam;
+            exam.push_back(10);
+            exam.push_back(20);
+            exam.push_back(30);
+
+            for (int i = 0, size = exam.size(); i < size; i++) 
+            {
+                cout << "벡터 값: " << exam.at(i) << endl;
+            }
+
+            return 0;
+
+        #pragma endregion
 
     
     }
