@@ -41,6 +41,22 @@ using namespace std;
 
 #pragma endregion
 
+    #pragma region 015. {}
+    
+    int x = 10;
+    int Func1() 
+    {
+        int y = x + 10;
+        return y;
+    }
+    
+    int Func2() 
+    {
+        int x = 100;
+        return x;
+    }
+
+    #pragma endregion
 
 
     int main()
@@ -229,7 +245,7 @@ using namespace std;
 
         #pragma region 014. Include
 
-            vector<int> exam;
+            /*vector<int> exam;
             exam.push_back(10);
             exam.push_back(20);
             exam.push_back(30);
@@ -238,6 +254,16 @@ using namespace std;
             {
                 cout << "벡터 값: " << exam.at(i) << endl;
             }
+
+            return 0;*/
+
+        #pragma endregion
+
+        #pragma region 015. {}
+
+            cout << "y = " << Func1() << endl; //20
+            cout << "x = " << Func2() << endl; //100
+            cout << "x = " << x << endl; //10
 
             return 0;
 
